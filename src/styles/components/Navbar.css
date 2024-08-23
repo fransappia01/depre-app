@@ -1,0 +1,86 @@
+.container-navbar {
+    background-color: rgb(75, 119, 241);
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-color: rgb(75, 119, 241);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0; /* Asegura que el Navbar se mantenga en la parte superior */
+    left: 0; /* Asegura que el Navbar esté alineado a la izquierda */
+}
+
+.menu-logo {
+    display: inline-block; 
+    margin-left: 10px;
+}
+
+.container-logos {
+    display: flex; 
+    align-items: center; 
+    margin-right: 15px;
+    color: white;
+}
+
+.circle-back1 {
+    width: 50vw; 
+    height: 50vw; 
+    max-width: 500px; 
+    max-height: 500px; 
+    position: fixed;
+    background-color: rgb(10, 46, 163, 0.2);
+    z-index: -1; 
+    border-radius: 50%;
+    top: -150px; 
+    left: -150px;  
+    overflow: hidden; 
+}
+
+.circle-back2 {
+    width: 50vw; 
+    height: 50vw; 
+    max-width: 500px; 
+    max-height: 500px; 
+    position: fixed;
+    background-color: rgb(10, 46, 163, 0.2);
+    z-index: -1; 
+    border-radius: 50%;
+    bottom: -300px; 
+    right: -300px; 
+    overflow: hidden; 
+}
+
+@media (max-width: 500px){
+    .circle-back1 {
+        width: 50vw; 
+        height: 50vw; 
+        max-width: 500px; 
+        max-height: 500px; 
+        position: fixed;
+        background-color: rgb(10, 46, 163, 0.2);
+        z-index: -1; 
+        border-radius: 50%;
+        top: -10px; 
+        left: -80px;  
+        overflow: hidden; 
+    }
+    
+    .circle-back2 {
+        width: 70vw; 
+        height: 70vw; 
+        max-width: 400px; 
+        max-height: 400px; 
+        position: fixed;
+        background-color: rgb(10, 46, 163, 0.2);
+        z-index: -1; 
+        border-radius: 50%;
+        bottom: -90px; 
+        right: -120px; 
+        overflow: hidden; 
+    }
+    
+    
+}

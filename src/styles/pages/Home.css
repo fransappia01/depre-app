@@ -1,0 +1,42 @@
+.home-container {
+    margin-top: 60px; 
+    padding: 20px;
+}
+
+.home {
+    color: black;
+    text-align: center;
+    grid-column: span 2;
+}
+
+.logo-data {
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+
+.options {
+    background-color: rgb(75, 119, 241);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.options:hover {
+    background-color: rgb(50, 80, 200);
+}
+
+@media (min-width: 900px) {
+    .options {
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+    }
+}

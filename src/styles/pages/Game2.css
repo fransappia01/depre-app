@@ -1,0 +1,63 @@
+.game2-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .wheel-container {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    margin-left: -30px;
+    }
+
+.button-trash {
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 50%; /* Hacer el botón circular */
+  width: 28px; /* Ajustar el ancho */
+  height: 28px; /* Ajustar la altura */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* Eliminar el padding interno */
+}
+
+.button-trash:hover {
+  color: #cc0000;
+}
+
+.button-trash svg {
+  font-size: 16px; /* Ajustar el tamaño del icono */
+}
+  
+  .input {
+    flex: 1;
+    margin-left: 5px;
+    padding: 10px;
+  }
+   
+  .input-cantidad {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
