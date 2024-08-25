@@ -85,13 +85,13 @@ const Game5 = () => {
     <div className="game5-container">
       <h2 className='anotador-title'>Anotador Truco</h2>
       <div className="fixed-rectangle">
-        <div className="name-container left">
+        <div className="name-container left" onClick={() => handleAddPalito('nos')}>
           <span className="name">Nos</span>
           <div className="palitos-container">
             {renderPalitos(nosPalitos)}
           </div>
         </div>
-        <div className="name-container right">
+        <div className="name-container right" onClick={() => handleAddPalito('ellos')}>
           <span className="name">Ellos</span>
           <div className="palitos-container">
             {renderPalitos(ellosPalitos)}
@@ -109,6 +109,10 @@ const Game5 = () => {
           <button className="icon-button" onClick={() => handleAddPalito('ellos')}>+</button>
           <button className="icon-button" onClick={() => handleRemovePalito('ellos')}>-</button>
         </div>
+      </div>
+      <div className='container-down-left' onClick={() => handleAddPalito('nos')}>  
+      </div>
+      <div className='container-down-right' onClick={() => handleAddPalito('ellos')}>  
       </div>
       <button className='boton-reiniciar' onClick={() => { setNosPalitos(0); setEllosPalitos(0); }}>Reiniciar partida</button>
 

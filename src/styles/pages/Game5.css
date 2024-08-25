@@ -226,3 +226,20 @@
     cursor: pointer;
   }
   
+  .container-down-left {
+    height: 270px;
+    width: 145px;
+    position: absolute;
+    margin-left: -140px;
+    margin-bottom: -195px;
+
+  }
+
+  .container-down-right {
+    height: 270px;
+    width: 140px;
+    position: absolute;
+    margin-right: -148px;
+    margin-bottom: -195px;
+
+  }
