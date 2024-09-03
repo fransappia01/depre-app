@@ -1,0 +1,17 @@
+/* Countdown.css */
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  /* Puedes agregar estilos adicionales para el temporizador */
+  .timer {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5rem;
+  }
+  

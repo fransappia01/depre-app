@@ -10,10 +10,11 @@ const Home = () => {
             <div className="home">
                 <img src={LogoApp} alt="logo-data" className="logo-data" />
             </div>
-            <Link to="/first-game" className="options">Número random</Link>
+            <Link to="/fifth-game" className="options">Anotador Truco</Link>
+            <Link to="/online-game" className="options">Jugar Online</Link>
             <Link to="/second-game" className="options">Ruleta</Link>
             <Link to="/fourth-game" className="options">Sorteo</Link>
-            <Link to="/fifth-game" className="options">Anotador Truco</Link>
+            <Link to="/first-game" className="options">Número random</Link>
         </div>
     );
 

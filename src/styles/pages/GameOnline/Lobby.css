@@ -1,0 +1,50 @@
+.lobby-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.players-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.player-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 80px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(75, 119, 241);
+  position: relative;
+}
+
+.player-avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.player-item p {
+  margin: 0;
+  color: white;
+}
+
+.line-divider {
+  width: 130%;
+  height: 1px;
+  margin-top: 4px !important;
+  background-color: #000000;
+}
+
+button {
+  margin-top: 20px;
+}

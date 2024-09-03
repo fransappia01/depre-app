@@ -5,15 +5,21 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { useNavigate } from 'react-router-dom';
 import '../styles/components/Navbar.css';
 
-const Navbar2 = ({ toggleSidebar }) => {
+const Navbar3 = ({ toggleSidebar }) => {
     const navigate = useNavigate();
+
+    const handleBackClick = () => {
+        const confirmExit = window.confirm("¿Está seguro que quiere salir de la sala?");
+        if (confirmExit) {
+            navigate('/'); // Redirige a la página principal
+        }
+    };
 
     return (
         <>
             <div className='container-navbar'>
                 <div className='menu-logo'>
-                    {/* Usando navigate para volver a la página anterior */}
-                    <IconButton onClick={() => navigate(-1)}>
+                    <IconButton onClick={handleBackClick}>
                         <ArrowBack style={{ color: 'white' }} />
                     </IconButton>
                 </div> 
@@ -30,4 +36,4 @@ const Navbar2 = ({ toggleSidebar }) => {
     );
 }
 
-export default Navbar2;
+export default Navbar3;

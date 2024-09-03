@@ -36,7 +36,8 @@
     border-radius: 50%;
     top: -150px; 
     left: -150px;  
-    overflow: hidden; 
+    overflow: hidden;
+    z-index: 1;
 }
 
 .circle-back2 {
@@ -50,7 +51,8 @@
     border-radius: 50%;
     bottom: -300px; 
     right: -300px; 
-    overflow: hidden; 
+    overflow: hidden;
+    z-index: 1; 
 }
 
 @media (max-width: 500px){
@@ -66,6 +68,7 @@
         top: -10px; 
         left: -80px;  
         overflow: hidden; 
+        z-index: 1;
     }
     
     .circle-back2 {
@@ -80,6 +83,7 @@
         bottom: -90px; 
         right: -120px; 
         overflow: hidden; 
+        z-index: 1;
     }
     
     

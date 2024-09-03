@@ -1,0 +1,50 @@
+/* styles/pages/GameOnline/JoinGame.css */
+
+.pre-game-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar-selection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .avatar-option {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .avatar-option.selected {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #F3F2F1;
+  }
+  
+  .avatar-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  
